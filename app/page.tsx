@@ -84,111 +84,170 @@ export default function Home() {
         </div>
 
         <section className="pb-20 pt-10 md:pb-32 md:pt-20">
-          <div className="grod-col-1 grid gap-8 md:grid-cols-2">
-            <div className="relative rounded-md bg-sky-50 px-3 py-10 shadow-sm md:px-8">
-              <a
-                href="https://sp.stu48.com/feature/rikujou_teamunit_miker_fs"
+          <div className="grod-col-1 grid gap-y-10 gap-x-8 md:grid-cols-2">
+            <div className="relative rounded-md bg-sky-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+              {/* <a
+                href="https://youtu.be/fmMdUw9vPzw"
                 className="absolute inset-0"
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
-              <Badge className="absolute right-4 top-3 bg-sky-400 text-white">
+              ></a> */}
+              <Badge className="absolute right-6 top-5 bg-sky-400 text-white">
                 ユニット
               </Badge>
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 MiKER!
               </h3>
-              <p className="break-words leading-7">
+              <p className="break-words leading-7 flex-1">
                 STU48の課外活動ユニット、トークが面白くてパフォーマンスも最高！
               </p>
+              <div className="flex justify-end mt-4">
+                <a
+                  href="https://youtu.be/fmMdUw9vPzw"
+                  className="bg-sky-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  動画をみる
+                </a>
+              </div>
             </div>
-            <div className="relative rounded-md bg-emerald-50 px-3 py-10 shadow-sm md:px-8">
-              <a
+            <div className="relative rounded-md bg-emerald-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+              {/* <a
                 href="https://www.showroom-live.com/r/48_SHINANO_SORAHA"
                 className="absolute inset-0"
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
-              <Badge className="absolute right-4 top-3 bg-emerald-500 text-white">
+              ></a> */}
+              <Badge className="absolute right-6 top-5 bg-emerald-500 text-white">
                 配信
               </Badge>
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 SHOWROOM
               </h3>
-              <p className="break-words leading-7">
+              <p className="break-words leading-7 flex-1">
                 カラオケ配信、買ったもの紹介、行ったところの思い出話など、様々な配信をしています！
                 たまにSTU2期生の尾崎世里花さんとのコラボ配信も！
               </p>
+              <div className="flex justify-end mt-4">
+                <a
+                  href="https://www.showroom-live.com/r/48_SHINANO_SORAHA"
+                  className="bg-emerald-500 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ルームへ
+                </a>
+              </div>
             </div>
-            <div className="relative rounded-md bg-rose-50 px-3 py-10 shadow-sm md:px-8">
-              <a
+            <div className="relative rounded-md bg-red-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+              {/* <a
                 href="https://www.youtube.com/playlist?list=PLgH27eqLR8Y8czJOH_mH9nOKaDQEn-7JS"
                 className="absolute inset-0"
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
-              <Badge className="absolute right-4 top-3 bg-rose-400 text-white">
+              ></a> */}
+              <Badge className="absolute right-6 top-5 bg-red-400 text-white">
                 YouTube
               </Badge>
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 STU LABO 宙花亭
               </h3>
-              <p className="break-words leading-7">
+              <p className="break-words leading-7 flex-1">
                 STU48 公式YouTube 「STU
                 LABO」の中で、「宙花亭」というラーメンに関するソロ企画を行なっています！
                 セルフプロデュースしたラーメンの商品化を目指している！
               </p>
+              <div className="flex justify-end mt-4">
+                <a
+                  href="https://www.youtube.com/playlist?list=PLgH27eqLR8Y8czJOH_mH9nOKaDQEn-7JS"
+                  className="bg-red-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  動画をみる
+                </a>
+              </div>
             </div>
-            <div className="relative rounded-md bg-orange-50 px-3 py-10 shadow-sm md:px-8">
-              <a
+            <div className="relative rounded-md bg-orange-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+              {/* <a
                 href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/"
                 className="absolute inset-0"
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
-              <Badge className="absolute right-4 top-3 bg-orange-400 text-white">
+              ></a> */}
+              <Badge className="absolute right-6 top-5 bg-orange-400 text-white">
                 ラジオ
               </Badge>
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 コイらじ
               </h3>
-              <p className="break-words leading-7">
+              <p className="break-words leading-7 flex-1">
                 宙花さんの回は、毎週木曜日 17:05〜
                 NHKラジオ第1（広島）で聴けます！
               </p>
+              <div className="flex justify-end mt-4">
+                <a
+                  href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/"
+                  className="bg-orange-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ホームページへ
+                </a>
+              </div>
             </div>
-            <div className="relative rounded-md bg-teal-50 px-3 py-10 shadow-sm md:px-8">
-              <a
+            <div className="relative rounded-md bg-teal-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+              {/* <a
                 href="https://sp.stu48.com/"
                 className="absolute inset-0"
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
-              <Badge className="absolute right-4 top-3 bg-teal-400 text-white">
+              ></a> */}
+              <Badge className="absolute right-6 top-5 bg-teal-400 text-white">
                 ブログ
               </Badge>
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 宙日記/まいにちそらは
               </h3>
-              <p className="break-words leading-7">毎日更新中！</p>
+              <p className="break-words leading-7 flex-1">毎日更新中！</p>
+              <div className="flex justify-end mt-4">
+                <a
+                  href="https://sp.stu48.com/"
+                  className="bg-teal-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  公式サイトへ
+                </a>
+              </div>
             </div>
-            <div className="relative rounded-md bg-blue-50 px-3 py-10 shadow-sm md:px-8">
-              {" "}
+            <div className="relative rounded-md bg-blue-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
               <a
                 href="https://stu48-specialsupporter-rooms.fanpla.jp/"
                 className="absolute inset-0"
                 target="_blank"
                 rel="noopener noreferrer"
               ></a>
-              <Badge className="absolute right-4 top-3 bg-blue-400 text-white">
+              <Badge className="absolute right-6 top-5 bg-blue-400 text-white">
                 コミュニティ
               </Badge>
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 スペシャルサポーター
               </h3>
-              <p className="break-words leading-7">
+              <p className="break-words leading-7 flex-1">
                 毎週日曜日21時30分に更新！
               </p>
+              <div className="flex justify-end mt-4">
+                <a
+                  href="https://sp.stu48.com/"
+                  className="bg-blue-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  公式サイトへ
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -197,13 +256,13 @@ export default function Home() {
           <h2 className="mb-8 text-3xl font-medium text-slate-700">楽曲</h2>
           <div className="grid grid-cols-1 gap-8">
             <div className="relative rounded-md bg-yellow-50 px-4 py-6 shadow-sm md:px-8">
-              <Badge className="absolute right-4 top-3 hidden text-slate-700 md:block">
+              <Badge className="absolute right-6 top-5 hidden text-slate-700 md:block">
                 「風を待つ」 - 2019.02.13
               </Badge>
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 やがて菜の花が咲く頃
               </h3>
-              <p className="break-words leading-7">
+              <p className="break-words leading-7 flex-1">
                 ドラフト3期生として初めの曲！
               </p>
               <div className="flex w-full justify-end">
@@ -215,13 +274,13 @@ export default function Home() {
               </div>
             </div>
             <div className="relative rounded-md bg-sky-50 px-4 py-6 shadow-sm md:px-8">
-              <Badge className="absolute right-4 top-3 hidden text-slate-700 md:block">
+              <Badge className="absolute right-6 top-5 hidden text-slate-700 md:block">
                 「花は誰のもの?」 - 2022.04.13
               </Badge>
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 船から降りた僕たちは
               </h3>
-              <p className="break-words leading-7">初センター曲！</p>{" "}
+              <p className="break-words leading-7 flex-1">初センター曲！</p>{" "}
               <div className="flex w-full justify-end">
                 <MusciShare
                   apple_share_url={`https://music.apple.com/jp/album/%E8%88%B9%E3%81%8B%E3%82%89%E9%99%8D%E3%82%8A%E3%81%9F%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AF/1616820916?i=1616820935`}
@@ -231,13 +290,15 @@ export default function Home() {
               </div>
             </div>
             <div className="relative rounded-md bg-slate-50 px-4 py-6 shadow-sm md:px-8">
-              <Badge className="absolute right-4 top-3 hidden text-slate-700 md:block">
+              <Badge className="absolute right-6 top-5 hidden text-slate-700 md:block">
                 「息をする心」 - 2023.03.15
               </Badge>
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 自然淘汰主義
               </h3>
-              <p className="break-words leading-7">そらはさんセンター！</p>{" "}
+              <p className="break-words leading-7 flex-1">
+                そらはさんセンター！
+              </p>{" "}
               <div className="flex w-full justify-end">
                 <MusciShare
                   apple_share_url={`https://music.apple.com/jp/album/%E8%87%AA%E7%84%B6%E6%B7%98%E6%B1%B0%E4%B8%BB%E7%BE%A9/1675294316?i=1675294318`}
