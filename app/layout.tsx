@@ -4,6 +4,7 @@ import { M_PLUS_Rounded_1c } from "next/font/google";
 const mPlusR_1c = M_PLUS_Rounded_1c({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
+  display: "swap",
 });
 
 // const inter = Inter({ subsets: ["latin"] });
