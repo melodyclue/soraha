@@ -95,7 +95,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 bg-sky-400 text-white">
                 ユニット
               </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-800 md:text-2xl">
+              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 MiKER!
               </h3>
               <p className="break-words leading-7">
@@ -112,7 +112,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 bg-emerald-500 text-white">
                 配信
               </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-800 md:text-2xl">
+              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 SHOWROOM
               </h3>
               <p className="break-words leading-7">
@@ -130,7 +130,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 bg-rose-400 text-white">
                 YouTube
               </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-800 md:text-2xl">
+              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 STU LABO 宙花亭
               </h3>
               <p className="break-words leading-7">
@@ -149,7 +149,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 bg-orange-400 text-white">
                 ラジオ
               </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-800 md:text-2xl">
+              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 コイらじ
               </h3>
               <p className="break-words leading-7">
@@ -167,7 +167,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 bg-teal-400 text-white">
                 ブログ
               </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-800 md:text-2xl">
+              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 宙日記/まいにちそらは
               </h3>
               <p className="break-words leading-7">毎日更新中！</p>
@@ -183,7 +183,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 bg-blue-400 text-white">
                 コミュニティ
               </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-800 md:text-2xl">
+              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 スペシャルサポーター
               </h3>
               <p className="break-words leading-7">
@@ -200,7 +200,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 hidden text-slate-700 md:block">
                 「風を待つ」 - 2019.02.13
               </Badge>
-              <h3 className="mb-2 text-xl font-semibold text-slate-800 md:mb-6 md:text-2xl">
+              <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 やがて菜の花が咲く頃
               </h3>
               <p className="break-words leading-7">
@@ -218,7 +218,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 hidden text-slate-700 md:block">
                 「花は誰のもの?」 - 2022.04.13
               </Badge>
-              <h3 className="mb-2 text-xl font-semibold text-slate-800 md:mb-6 md:text-2xl">
+              <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 船から降りた僕たちは
               </h3>
               <p className="break-words leading-7">初センター曲！</p>{" "}
@@ -234,7 +234,7 @@ export default function Home() {
               <Badge className="absolute right-4 top-3 hidden text-slate-700 md:block">
                 「息をする心」 - 2023.03.15
               </Badge>
-              <h3 className="mb-2 text-xl font-semibold text-slate-800 md:mb-6 md:text-2xl">
+              <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 自然淘汰主義
               </h3>
               <p className="break-words leading-7">そらはさんセンター！</p>{" "}

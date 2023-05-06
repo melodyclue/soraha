@@ -1,13 +1,5 @@
+import { mPlustFontClass } from "~/lib/font";
 import "./globals.css";
-import { M_PLUS_Rounded_1c } from "next/font/google";
-
-const mPlusR_1c = M_PLUS_Rounded_1c({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-  display: "swap",
-});
-
-// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -21,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={mPlusR_1c.className}>{children}</body>
+      <body className={`${mPlustFontClass} font-sans`}>{children}</body>
     </html>
   );
 }
