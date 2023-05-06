@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <div className="w-full px-6">
-        <div className="flex justify-center gap-x-2 pt-6 md:pt-10">
+      <div className="w-full px-4">
+        <div className="flex justify-center gap-x-2 pt-5 md:pt-10">
           <div>
             <Image
               src="/soraha_header.jpg"
@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="md:px-15 mx-auto max-w-screen-xl px-6 pt-4 sm:px-10 lg:px-24">
+      <div className="md:px-15 mx-auto max-w-screen-xl px-4 pt-4 sm:px-10 lg:px-24">
         <div className="max-w mx-auto md:mt-10">
           <div className="md:mt-8">
             <h1 className="text-center font-semibold leading-loose text-slate-700">
@@ -85,7 +85,7 @@ export default function Home() {
 
         <section className="pb-20 pt-10 md:pb-32 md:pt-20">
           <div className="grod-col-1 grid gap-8 md:grid-cols-2">
-            <div className="relative rounded-md bg-sky-50 px-4 py-10 shadow-sm md:px-8">
+            <div className="relative rounded-md bg-sky-50 px-3 py-10 shadow-sm md:px-8">
               <a
                 href="https://sp.stu48.com/feature/rikujou_teamunit_miker_fs"
                 className="absolute inset-0"
@@ -102,7 +102,7 @@ export default function Home() {
                 STU48の課外活動ユニット、トークが面白くてパフォーマンスも最高！
               </p>
             </div>
-            <div className="relative rounded-md bg-emerald-50 px-4 py-10 shadow-sm md:px-8">
+            <div className="relative rounded-md bg-emerald-50 px-3 py-10 shadow-sm md:px-8">
               <a
                 href="https://www.showroom-live.com/r/48_SHINANO_SORAHA"
                 className="absolute inset-0"
@@ -116,11 +116,11 @@ export default function Home() {
                 SHOWROOM
               </h3>
               <p className="break-words leading-7">
-                カラオケ配信、買ったもの紹介、
+                カラオケ配信、買ったもの紹介、行ったところの思い出話など、様々な配信をしています！
                 たまにSTU2期生の尾崎世里花さんとのコラボ配信も！
               </p>
             </div>
-            <div className="relative rounded-md bg-rose-50 px-4 py-10 shadow-sm md:px-8">
+            <div className="relative rounded-md bg-rose-50 px-3 py-10 shadow-sm md:px-8">
               <a
                 href="https://www.youtube.com/playlist?list=PLgH27eqLR8Y8czJOH_mH9nOKaDQEn-7JS"
                 className="absolute inset-0"
@@ -139,7 +139,7 @@ export default function Home() {
                 セルフプロデュースしたラーメンの商品化を目指している！
               </p>
             </div>
-            <div className="relative rounded-md bg-orange-50 px-4 py-10 shadow-sm md:px-8">
+            <div className="relative rounded-md bg-orange-50 px-3 py-10 shadow-sm md:px-8">
               <a
                 href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/"
                 className="absolute inset-0"
@@ -157,7 +157,7 @@ export default function Home() {
                 NHKラジオ第1（広島）で聴けます！
               </p>
             </div>
-            <div className="relative rounded-md bg-teal-50 px-4 py-10 shadow-sm md:px-8">
+            <div className="relative rounded-md bg-teal-50 px-3 py-10 shadow-sm md:px-8">
               <a
                 href="https://sp.stu48.com/"
                 className="absolute inset-0"
@@ -172,7 +172,7 @@ export default function Home() {
               </h3>
               <p className="break-words leading-7">毎日更新中！</p>
             </div>
-            <div className="relative rounded-md bg-blue-50 px-4 py-10 shadow-sm md:px-8">
+            <div className="relative rounded-md bg-blue-50 px-3 py-10 shadow-sm md:px-8">
               {" "}
               <a
                 href="https://stu48-specialsupporter-rooms.fanpla.jp/"

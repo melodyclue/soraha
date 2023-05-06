@@ -7,7 +7,7 @@ import { Apple, Spotify, Line } from "react-bootstrap-icons";
 import Link from "next/link";
 
 const badgeVariants = cva(
-  "inline-flex gap-x-3 items-center border rounded-full px-3.5 py-1 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+  "flex gap-x-3 items-center border rounded-full px-3.5 py-1 text-xs font-medium focus:outline-none",
   {
     variants: {
       variant: {
