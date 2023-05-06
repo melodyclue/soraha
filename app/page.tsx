@@ -56,7 +56,7 @@ export default function Home() {
         <div className="flex flex-col justify-center gap-y-4 py-8 md:gap-y-8 md:py-12">
           <a
             href="https://sp.stu48.com/schedule/detail/15267"
-            className="w-full rounded bg-sky-500 px-3 py-2 text-center text-sm text-white shadow md:px-12 md:text-base"
+            className="w-full rounded bg-sky-500 px-1 py-2 text-center text-sm text-white shadow md:px-12 md:text-base"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -67,7 +67,7 @@ export default function Home() {
           </a>
           <a
             href="https://twitter.com/soraha_stu48/status/1653026613481844750?s=20"
-            className="md:text-bas w-full rounded bg-teal-500 px-3 py-2 text-center text-sm text-white  shadow md:px-12"
+            className="md:text-bas w-full rounded bg-teal-500 px-1 py-2 text-center text-sm text-white shadow  md:px-12"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -75,7 +75,7 @@ export default function Home() {
           </a>
           <a
             href="https://twitter.com/soraha_stu48/status/1654398209832390657?s=20"
-            className="md:text-bas w-full rounded bg-blue-500 px-3 py-2 text-center text-sm text-white  shadow md:px-12"
+            className="md:text-bas w-full rounded bg-blue-500 px-1 py-2 text-center text-sm text-white shadow  md:px-12"
             target="_blank"
             rel="noopener noreferrer"
           >
