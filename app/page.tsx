@@ -84,8 +84,8 @@ export default function Home() {
         </div>
 
         <section className="pb-20 pt-10 md:pb-32 md:pt-20">
-          <div className="grod-col-1 grid gap-x-8 gap-y-10 md:grid-cols-2">
-            <div className="relative flex flex-col rounded-md bg-sky-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
+          <div className="grod-col-1 grid gap-x-6 gap-y-10 md:grid-cols-2 md:gap-x-6">
+            <div className="relative flex flex-col rounded-md bg-sky-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
               {/* <a
                 href="https://youtu.be/fmMdUw9vPzw"
                 className="absolute inset-0"
@@ -112,7 +112,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative flex flex-col rounded-md bg-emerald-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
+            <div className="relative flex flex-col rounded-md bg-emerald-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
               {/* <a
                 href="https://www.showroom-live.com/r/48_SHINANO_SORAHA"
                 className="absolute inset-0"
@@ -140,7 +140,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative flex flex-col rounded-md bg-red-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
+            <div className="relative flex flex-col rounded-md bg-red-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
               {/* <a
                 href="https://www.youtube.com/playlist?list=PLgH27eqLR8Y8czJOH_mH9nOKaDQEn-7JS"
                 className="absolute inset-0"
@@ -169,7 +169,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative flex flex-col rounded-md bg-orange-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
+            <div className="relative flex flex-col rounded-md bg-orange-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
               {/* <a
                 href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/"
                 className="absolute inset-0"
@@ -197,7 +197,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative flex flex-col rounded-md bg-teal-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
+            <div className="relative flex flex-col rounded-md bg-teal-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
               {/* <a
                 href="https://sp.stu48.com/"
                 className="absolute inset-0"
@@ -222,7 +222,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative flex flex-col rounded-md bg-blue-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
+            <div className="relative flex flex-col rounded-md bg-blue-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
               <a
                 href="https://stu48-specialsupporter-rooms.fanpla.jp/"
                 className="absolute inset-0"
@@ -262,7 +262,7 @@ export default function Home() {
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 やがて菜の花が咲く頃
               </h3>
-              <p className="flex-1 break-words leading-7">
+              <p className="mb-4 flex-1 break-words leading-7 md:mb-0">
                 ドラフト3期生として初めの曲！
               </p>
               <div className="flex w-full justify-end">
@@ -280,7 +280,9 @@ export default function Home() {
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 船から降りた僕たちは
               </h3>
-              <p className="flex-1 break-words leading-7">初センター曲！</p>{" "}
+              <p className="mb-4 flex-1 break-words leading-7 md:mb-0">
+                初センター曲！
+              </p>{" "}
               <div className="flex w-full justify-end">
                 <MusciShare
                   apple_share_url={`https://music.apple.com/jp/album/%E8%88%B9%E3%81%8B%E3%82%89%E9%99%8D%E3%82%8A%E3%81%9F%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AF/1616820916?i=1616820935`}
@@ -296,7 +298,7 @@ export default function Home() {
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 自然淘汰主義
               </h3>
-              <p className="flex-1 break-words leading-7">
+              <p className="mb-4 flex-1 break-words leading-7 md:mb-0">
                 そらはさんセンター！
               </p>{" "}
               <div className="flex w-full justify-end">
