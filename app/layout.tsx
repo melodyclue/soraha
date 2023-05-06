@@ -1,4 +1,4 @@
-import { mPlustFontClass } from "~/lib/font";
+import { mPlusRFont } from "~/lib/font";
 import "./globals.css";
 
 export const metadata = {
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html className={`${mPlusRFont.variable} font-sans`}>
       <body>{children}</body>
     </html>
   );
