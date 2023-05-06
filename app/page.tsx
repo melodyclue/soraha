@@ -84,8 +84,8 @@ export default function Home() {
         </div>
 
         <section className="pb-20 pt-10 md:pb-32 md:pt-20">
-          <div className="grod-col-1 grid gap-y-10 gap-x-8 md:grid-cols-2">
-            <div className="relative rounded-md bg-sky-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+          <div className="grod-col-1 grid gap-x-8 gap-y-10 md:grid-cols-2">
+            <div className="relative flex flex-col rounded-md bg-sky-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
               {/* <a
                 href="https://youtu.be/fmMdUw9vPzw"
                 className="absolute inset-0"
@@ -98,13 +98,13 @@ export default function Home() {
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 MiKER!
               </h3>
-              <p className="break-words leading-7 flex-1">
+              <p className="flex-1 break-words leading-7">
                 STU48の課外活動ユニット、トークが面白くてパフォーマンスも最高！
               </p>
-              <div className="flex justify-end mt-4">
+              <div className="mt-4 flex justify-end">
                 <a
                   href="https://youtu.be/fmMdUw9vPzw"
-                  className="bg-sky-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  className="mt-4 inline-block rounded-md bg-sky-400 px-5 py-2 text-sm font-medium text-white md:text-base"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -112,7 +112,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative rounded-md bg-emerald-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+            <div className="relative flex flex-col rounded-md bg-emerald-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
               {/* <a
                 href="https://www.showroom-live.com/r/48_SHINANO_SORAHA"
                 className="absolute inset-0"
@@ -125,14 +125,14 @@ export default function Home() {
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 SHOWROOM
               </h3>
-              <p className="break-words leading-7 flex-1">
+              <p className="flex-1 break-words leading-7">
                 カラオケ配信、買ったもの紹介、行ったところの思い出話など、様々な配信をしています！
                 たまにSTU2期生の尾崎世里花さんとのコラボ配信も！
               </p>
-              <div className="flex justify-end mt-4">
+              <div className="mt-4 flex justify-end">
                 <a
                   href="https://www.showroom-live.com/r/48_SHINANO_SORAHA"
-                  className="bg-emerald-500 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  className="mt-4 inline-block rounded-md bg-emerald-500 px-5 py-2 text-sm font-medium text-white md:text-base"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -140,7 +140,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative rounded-md bg-red-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+            <div className="relative flex flex-col rounded-md bg-red-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
               {/* <a
                 href="https://www.youtube.com/playlist?list=PLgH27eqLR8Y8czJOH_mH9nOKaDQEn-7JS"
                 className="absolute inset-0"
@@ -153,15 +153,15 @@ export default function Home() {
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 STU LABO 宙花亭
               </h3>
-              <p className="break-words leading-7 flex-1">
+              <p className="flex-1 break-words leading-7">
                 STU48 公式YouTube 「STU
                 LABO」の中で、「宙花亭」というラーメンに関するソロ企画を行なっています！
                 セルフプロデュースしたラーメンの商品化を目指している！
               </p>
-              <div className="flex justify-end mt-4">
+              <div className="mt-4 flex justify-end">
                 <a
                   href="https://www.youtube.com/playlist?list=PLgH27eqLR8Y8czJOH_mH9nOKaDQEn-7JS"
-                  className="bg-red-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  className="mt-4 inline-block rounded-md bg-red-400 px-5 py-2 text-sm font-medium text-white md:text-base"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -169,7 +169,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative rounded-md bg-orange-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+            <div className="relative flex flex-col rounded-md bg-orange-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
               {/* <a
                 href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/"
                 className="absolute inset-0"
@@ -182,14 +182,14 @@ export default function Home() {
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 コイらじ
               </h3>
-              <p className="break-words leading-7 flex-1">
+              <p className="flex-1 break-words leading-7">
                 宙花さんの回は、毎週木曜日 17:05〜
                 NHKラジオ第1（広島）で聴けます！
               </p>
-              <div className="flex justify-end mt-4">
+              <div className="mt-4 flex justify-end">
                 <a
                   href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/"
-                  className="bg-orange-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  className="mt-4 inline-block rounded-md bg-orange-400 px-5 py-2 text-sm font-medium text-white md:text-base"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -197,7 +197,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative rounded-md bg-teal-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+            <div className="relative flex flex-col rounded-md bg-teal-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
               {/* <a
                 href="https://sp.stu48.com/"
                 className="absolute inset-0"
@@ -210,11 +210,11 @@ export default function Home() {
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 宙日記/まいにちそらは
               </h3>
-              <p className="break-words leading-7 flex-1">毎日更新中！</p>
-              <div className="flex justify-end mt-4">
+              <p className="flex-1 break-words leading-7">毎日更新中！</p>
+              <div className="mt-4 flex justify-end">
                 <a
                   href="https://sp.stu48.com/"
-                  className="bg-teal-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  className="mt-4 inline-block rounded-md bg-teal-400 px-5 py-2 text-sm font-medium text-white md:text-base"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -222,7 +222,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="relative rounded-md bg-blue-50 px-3 pt-10 pb-5 shadow-sm md:px-8 flex flex-col">
+            <div className="relative flex flex-col rounded-md bg-blue-50 px-3 pb-5 pt-10 shadow-sm md:px-8">
               <a
                 href="https://stu48-specialsupporter-rooms.fanpla.jp/"
                 className="absolute inset-0"
@@ -235,13 +235,13 @@ export default function Home() {
               <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
                 スペシャルサポーター
               </h3>
-              <p className="break-words leading-7 flex-1">
+              <p className="flex-1 break-words leading-7">
                 毎週日曜日21時30分に更新！
               </p>
-              <div className="flex justify-end mt-4">
+              <div className="mt-4 flex justify-end">
                 <a
                   href="https://sp.stu48.com/"
-                  className="bg-blue-400 text-white px-5 py-2 rounded-md mt-4 inline-block font-medium text-sm md:text-base"
+                  className="mt-4 inline-block rounded-md bg-blue-400 px-5 py-2 text-sm font-medium text-white md:text-base"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -262,7 +262,7 @@ export default function Home() {
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 やがて菜の花が咲く頃
               </h3>
-              <p className="break-words leading-7 flex-1">
+              <p className="flex-1 break-words leading-7">
                 ドラフト3期生として初めの曲！
               </p>
               <div className="flex w-full justify-end">
@@ -280,7 +280,7 @@ export default function Home() {
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 船から降りた僕たちは
               </h3>
-              <p className="break-words leading-7 flex-1">初センター曲！</p>{" "}
+              <p className="flex-1 break-words leading-7">初センター曲！</p>{" "}
               <div className="flex w-full justify-end">
                 <MusciShare
                   apple_share_url={`https://music.apple.com/jp/album/%E8%88%B9%E3%81%8B%E3%82%89%E9%99%8D%E3%82%8A%E3%81%9F%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AF/1616820916?i=1616820935`}
@@ -296,7 +296,7 @@ export default function Home() {
               <h3 className="mb-2 text-xl font-semibold text-slate-700 md:mb-6 md:text-2xl">
                 自然淘汰主義
               </h3>
-              <p className="break-words leading-7 flex-1">
+              <p className="flex-1 break-words leading-7">
                 そらはさんセンター！
               </p>{" "}
               <div className="flex w-full justify-end">
