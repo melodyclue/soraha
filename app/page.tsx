@@ -71,7 +71,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="block">お話し会 受付中！</span>
+            <span className="block">お話し会</span>
           </a>
           <a
             href="https://twitter.com/soraha_stu48/status/1654398209832390657?s=20"
