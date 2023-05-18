@@ -1,4 +1,5 @@
 import { mPlusRFont } from "~/lib/font";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata = {
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html className={`${mPlusRFont.variable} font-sans`}>
-      <body>{children}</body>
+      <body>
+        {children} <Analytics />
+      </body>
     </html>
   );
 }
