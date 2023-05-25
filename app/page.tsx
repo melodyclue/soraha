@@ -1,11 +1,12 @@
 import Image from "next/image";
-import { Badge } from "~/components/badge";
-
 import type { Metadata } from "next";
 import { MusciShare } from "~/components/music-share";
+import { Miker } from "~/components/miker";
+import { Sorahatei } from "~/components/sorahatei";
+import { Listen } from "~/components/listen";
 
 export const metadata: Metadata = {
-  title: "しなの そらは さんの紹介ページ",
+  title: "信濃宙花さんの紹介サイト | STU48 ドラフト3期生",
   description: "STU48 ドラフト3期生 信濃宙花さんの紹介サイトです",
 };
 
@@ -14,245 +15,137 @@ export default function Home() {
     <>
       <div className="w-full px-4">
         <div className="flex justify-center gap-x-2 pt-5 md:pt-10">
-          <div>
+          <div className="aspect-square max-w-[10rem] overflow-hidden rounded-full">
             <Image
-              src="/soraha_header.jpg"
-              alt="Vercel Logo"
+              src="/soraha_stu_2023_01.png"
+              alt="Shinano Soraha STU48 2023"
               width={1200}
               height={630}
             />
           </div>
         </div>
       </div>
-      <div className="md:px-15 mx-auto max-w-screen-xl px-4 pt-4 sm:px-10 lg:px-24">
-        <div className="max-w mx-auto md:mt-10">
-          <div className="md:mt-8">
-            <h1 className="text-center font-semibold leading-loose text-slate-700">
-              <span className="block pb-1">
-                STU48 <span className="">ドラフト3期生</span>
-              </span>
-              <ruby className="text-xl tracking-wide md:text-2xl">
-                信濃　宙花<rt className="text-[14px]">しなの そらは</rt>
-                さんの紹介ページ 🍜
-              </ruby>
-            </h1>
+
+      <div className="px-8 md:mx-auto md:max-w-2xl">
+        <h1 className="text-center leading-loose">
+          <span className="mt-4 block pb-2 text-sm">
+            STU48 <span className="">ドラフト3期生</span>
+          </span>
+          <ruby className="text-xl font-medium tracking-wide">
+            信濃　宙花<rt className="text-[14px]">しなの そらは</rt>
+            さんの紹介ページ 🍜
+          </ruby>
+        </h1>
+
+        <div className="mx-auto pt-12 text-center md:pb-8">
+          <h4 className="text-xl font-medium">Profile</h4>
+          <div className="mt-4">
+            <ul className="text-sm leading-7">
+              <li>生年月日 / 2003年 8月9日</li>
+              <li>出身地 / 兵庫県</li>
+              <li>星座 / しし座</li>
+              <li>血液型 / A型</li>
+              <li>身長 / 163.5cm</li>
+              <li>剣道3段</li>
+              <li>ペンライトカラー 赤・緑</li>
+              <li>ニックネーム / そらは</li>
+            </ul>
           </div>
+        </div>
+      </div>
+
+      <section className="mt-8 bg-[#f8fcff] px-8 py-10">
+        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800">
+          <span>Movie</span>
+          <div className="flex items-center justify-center pt-1">
+            <span className="h-0.5 w-5 bg-blue-400"></span>
+          </div>
+        </h2>
+        <div className="flex flex-col gap-y-12 md:mx-auto md:max-w-xl">
+          <Miker />
+          <Sorahatei />
+        </div>
+      </section>
+
+      <section className="px-8 py-16 md:mx-auto md:max-w-2xl md:py-20">
+        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800">
+          <span>Talk</span>
+          <div className="flex items-center justify-center pt-1">
+            <span className="h-0.5 w-5 bg-red-400"></span>
+          </div>
+        </h2>
+        <div className="flex flex-col gap-y-6">
+          {/* href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/" */}
+
+          <Listen
+            title={`SHOWROOM`}
+            description={`カラオケ配信、買ったもの紹介、行ったところの思い出話など、様々な配信をしています！`}
+          />
+
+          <div className="border border-slate-100"></div>
+
+          <div className="">
+            <h3 className="mb-4 text-lg font-medium text-slate-800">
+              コイらじ
+            </h3>
+
+            <p className="mb-3 mt-4 flex-1 break-words text-sm leading-6">
+              宙花さんの回は、毎週木曜日 17:05〜
+              NHKラジオ第1（広島）で聴けます！
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#f9fbfd] px-8 pb-40 pt-10 md:py-20">
+        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800">
+          <span>Blog</span>
+          <div className="flex items-center justify-center pt-1">
+            <span className="h-0.5 w-5 bg-emerald-400"></span>
+          </div>
+        </h2>
+        <div className="flex flex-col gap-y-6 md:mx-auto md:max-w-2xl">
           <div>
-            <div className="mt-6 flex min-w-[220px] flex-1 justify-center md:mt-10">
-              <ul className="text-sm">
-                <li>生年月日 / 2003年 8月9日</li>
-                <li>出身地 / 兵庫県</li>
-                <li>星座 / しし座</li>
-                <li>血液型 / A型</li>
-                <li>身長 / 163.5cm</li>
-                <li>剣道3段</li>
-                <li>ペンライトカラー 赤・緑</li>
-                <li>ニックネーム / そらは</li>
-              </ul>
+            <h3 className="mb-4 text-lg font-medium text-slate-800">
+              宙日記/まいにちそらは
+            </h3>
+            <div className="flex items-center justify-between">
+              <p className="mb-3 mt-4 flex-1 break-words text-sm leading-6">
+                毎日更新中！
+              </p>
+              <a
+                className="rounded bg-teal-500 px-4 py-2 text-sm font-medium text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://sp.stu48.com/"
+              >
+                ブログへ
+              </a>
             </div>
           </div>
-        </div>
-
-        <div className="flex flex-col justify-center gap-y-4 py-8 md:gap-y-8 md:py-12">
-          <a
-            href="https://sp.stu48.com/schedule/detail/15267"
-            className="w-full rounded bg-sky-500 px-1 py-2 text-center text-sm text-white shadow md:px-12 md:text-base"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="block">
-              STU48 課外活動「MiKER!」公演 プレオーダー中！
-            </span>
-            2023年5月31日(水)　17:45開場/18:30開演
-          </a>
-          <a
-            href="https://twitter.com/soraha_stu48/status/1653026613481844750?s=20"
-            className="md:text-bas w-full rounded bg-teal-500 px-1 py-2 text-center text-sm text-white shadow  md:px-12"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="block">お話し会</span>
-          </a>
-          <a
-            href="https://twitter.com/soraha_stu48/status/1654398209832390657?s=20"
-            className="md:text-bas w-full rounded bg-blue-500 px-1 py-2 text-center text-sm text-white shadow  md:px-12"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="block">ライキン × STU48コラボイベント 👑</span>
-          </a>
-        </div>
-
-        <section className="pb-20 pt-10 md:pb-32 md:pt-20">
-          <div className="grod-col-1 grid gap-x-6 gap-y-10 md:grid-cols-2 md:gap-x-6">
-            <div className="relative flex flex-col rounded-md bg-sky-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
-              {/* <a
-                href="https://youtu.be/fmMdUw9vPzw"
-                className="absolute inset-0"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a> */}
-              <Badge className="absolute right-6 top-5 bg-sky-400 text-white">
-                ユニット
-              </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
-                MiKER!
-              </h3>
-              <p className="flex-1 break-words leading-7">
-                STU48の課外活動ユニット、トークが面白くてパフォーマンスも最高！
-              </p>
-              <div className="mt-4 flex justify-end">
-                <a
-                  href="https://youtu.be/fmMdUw9vPzw"
-                  className="mt-4 inline-block rounded-md bg-sky-400 px-5 py-2 text-sm font-medium text-white md:text-base"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  動画をみる
-                </a>
-              </div>
-            </div>
-            <div className="relative flex flex-col rounded-md bg-emerald-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
-              {/* <a
-                href="https://www.showroom-live.com/r/48_SHINANO_SORAHA"
-                className="absolute inset-0"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a> */}
-              <Badge className="absolute right-6 top-5 bg-emerald-500 text-white">
-                配信
-              </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
-                SHOWROOM
-              </h3>
-              <p className="flex-1 break-words leading-7">
-                カラオケ配信、買ったもの紹介、行ったところの思い出話など、様々な配信をしています！
-                たまにSTU2期生の尾崎世里花さんとのコラボ配信も！
-              </p>
-              <div className="mt-4 flex justify-end">
-                <a
-                  href="https://www.showroom-live.com/r/48_SHINANO_SORAHA"
-                  className="mt-4 inline-block rounded-md bg-emerald-500 px-5 py-2 text-sm font-medium text-white md:text-base"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ルームへ
-                </a>
-              </div>
-            </div>
-            <div className="relative flex flex-col rounded-md bg-red-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
-              {/* <a
-                href="https://www.youtube.com/playlist?list=PLgH27eqLR8Y8czJOH_mH9nOKaDQEn-7JS"
-                className="absolute inset-0"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a> */}
-              <Badge className="absolute right-6 top-5 bg-red-400 text-white">
-                YouTube
-              </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
-                STU LABO 宙花亭
-              </h3>
-              <p className="flex-1 break-words leading-7">
-                STU48 公式YouTube 「STU
-                LABO」の中で、「宙花亭」というラーメンに関するソロ企画を行なっています！
-                セルフプロデュースしたラーメンの商品化を目指している！
-              </p>
-              <div className="mt-4 flex justify-end">
-                <a
-                  href="https://www.youtube.com/playlist?list=PLgH27eqLR8Y8czJOH_mH9nOKaDQEn-7JS"
-                  className="mt-4 inline-block rounded-md bg-red-400 px-5 py-2 text-sm font-medium text-white md:text-base"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  動画をみる
-                </a>
-              </div>
-            </div>
-            <div className="relative flex flex-col rounded-md bg-orange-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
-              {/* <a
-                href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/"
-                className="absolute inset-0"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a> */}
-              <Badge className="absolute right-6 top-5 bg-orange-400 text-white">
-                ラジオ
-              </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
-                コイらじ
-              </h3>
-              <p className="flex-1 break-words leading-7">
-                宙花さんの回は、毎週木曜日 17:05〜
-                NHKラジオ第1（広島）で聴けます！
-              </p>
-              <div className="mt-4 flex justify-end">
-                <a
-                  href="https://www.nhk.jp/p/koiraji/rs/Q7L6MXWKGL/"
-                  className="mt-4 inline-block rounded-md bg-orange-400 px-5 py-2 text-sm font-medium text-white md:text-base"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ホームページへ
-                </a>
-              </div>
-            </div>
-            <div className="relative flex flex-col rounded-md bg-teal-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
-              {/* <a
-                href="https://sp.stu48.com/"
-                className="absolute inset-0"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a> */}
-              <Badge className="absolute right-6 top-5 bg-teal-400 text-white">
-                ブログ
-              </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
-                宙日記/まいにちそらは
-              </h3>
-              <p className="flex-1 break-words leading-7">毎日更新中！</p>
-              <div className="mt-4 flex justify-end">
-                <a
-                  href="https://sp.stu48.com/"
-                  className="mt-4 inline-block rounded-md bg-teal-400 px-5 py-2 text-sm font-medium text-white md:text-base"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  公式サイトへ
-                </a>
-              </div>
-            </div>
-            <div className="relative flex flex-col rounded-md bg-blue-50 px-3 pb-5 pt-16 shadow-sm md:px-8">
-              <a
-                href="https://stu48-specialsupporter-rooms.fanpla.jp/"
-                className="absolute inset-0"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a>
-              <Badge className="absolute right-6 top-5 bg-blue-400 text-white">
-                コミュニティ
-              </Badge>
-              <h3 className="mb-6 text-xl font-semibold text-slate-700 md:text-2xl">
-                スペシャルサポーター
-              </h3>
-              <p className="flex-1 break-words leading-7">
+          <div className="border border-slate-100"></div>
+          <div>
+            <h3 className="mb-4 text-lg font-medium text-slate-800">
+              スペシャルサポーター
+            </h3>
+            <div className="flex items-center justify-between">
+              <p className="mb-3 mt-4 flex-1 break-words text-sm leading-6">
                 毎週日曜日21時30分に更新！
               </p>
-              <div className="mt-4 flex justify-end">
-                <a
-                  href="https://sp.stu48.com/"
-                  className="mt-4 inline-block rounded-md bg-blue-400 px-5 py-2 text-sm font-medium text-white md:text-base"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  公式サイトへ
-                </a>
-              </div>
+              <a
+                className="rounded bg-blue-500 px-4 py-2 text-sm font-medium text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://stu48-specialsupporter-rooms.fanpla.jp/"
+              >
+                サイトへ
+              </a>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="mb-10 md:pb-20">
+      {/* <section className="mb-10 md:pb-20">
           <h2 className="mb-8 text-3xl font-medium text-slate-700">楽曲</h2>
           <div className="grid grid-cols-1 gap-8">
             <div className="relative rounded-md bg-yellow-50 px-4 py-6 shadow-sm md:px-8">
@@ -310,7 +203,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+      <div className="w-full">
+        <div className="flex items-center justify-center pt-1">
+          <span className="h-1 w-1/2 bg-red-400"></span>
+          <span className="h-1 w-1/2 bg-green-400"></span>
+        </div>
       </div>
     </>
   );

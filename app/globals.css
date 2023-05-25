@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply text-slate-800;
+  @apply text-slate-700;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
 }
