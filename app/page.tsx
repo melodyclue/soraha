@@ -54,23 +54,23 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="mt-8 bg-[#f8fcff] px-8 py-10">
-        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800">
+      <section className="mt-8 bg-[#f8fcff] px-8 py-16">
+        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800 md:mb-12">
           <span>Movie</span>
-          <div className="flex items-center justify-center pt-1">
+          <div className="flex items-center justify-center pt-3">
             <span className="h-0.5 w-5 bg-blue-400"></span>
           </div>
         </h2>
-        <div className="flex flex-col gap-y-12 md:mx-auto md:max-w-xl">
+        <div className="flex flex-col gap-y-12 md:mx-auto md:max-w-xl md:gap-y-24">
           <Miker />
           <Sorahatei />
         </div>
       </section>
 
       <section className="px-8 py-16 md:mx-auto md:max-w-2xl md:py-20">
-        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800">
+        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800 md:mb-12">
           <span>Talk</span>
-          <div className="flex items-center justify-center pt-1">
+          <div className="flex items-center justify-center pt-3">
             <span className="h-0.5 w-5 bg-red-400"></span>
           </div>
         </h2>
@@ -98,9 +98,9 @@ export default function Home() {
       </section>
 
       <section className="bg-[#f9fbfd] px-8 pb-40 pt-10 md:py-20">
-        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800">
+        <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800 md:mb-12">
           <span>Blog</span>
-          <div className="flex items-center justify-center pt-1">
+          <div className="flex items-center justify-center pt-3">
             <span className="h-0.5 w-5 bg-emerald-400"></span>
           </div>
         </h2>
@@ -117,7 +117,7 @@ export default function Home() {
                 className="rounded bg-teal-500 px-4 py-2 text-sm font-medium text-white"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://sp.stu48.com/"
+                href="https://sp.stu48.com/blog/stu48.official/list/417"
               >
                 ブログへ
               </a>
@@ -206,7 +206,7 @@ export default function Home() {
         </section> */}
 
       <div className="w-full">
-        <div className="flex items-center justify-center pt-1">
+        <div className="flex items-center justify-center pt-3">
           <span className="h-1 w-1/2 bg-red-400"></span>
           <span className="h-1 w-1/2 bg-green-400"></span>
         </div>
