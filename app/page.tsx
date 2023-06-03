@@ -4,12 +4,16 @@ import { MusciShare } from "~/components/music-share";
 import { Miker } from "~/components/miker";
 import { Sorahatei } from "~/components/sorahatei";
 import { Listen } from "~/components/listen";
-import { Tweet } from "~/components/Tweet";
-import { NextTweet } from "next-tweet";
 
 export const metadata: Metadata = {
   title: "信濃宙花さんの紹介サイト | STU48 ドラフト3期生",
   description: "STU48 ドラフト3期生 信濃宙花さんの紹介サイトです",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
 };
 
 export default function Home() {
