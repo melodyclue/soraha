@@ -4,6 +4,8 @@ import { MusciShare } from "~/components/music-share";
 import { Miker } from "~/components/miker";
 import { Sorahatei } from "~/components/sorahatei";
 import { Listen } from "~/components/listen";
+import { Tweet } from "~/components/Tweet";
+import { NextTweet } from "next-tweet";
 
 export const metadata: Metadata = {
   title: "信濃宙花さんの紹介サイト | STU48 ドラフト3期生",
@@ -53,6 +55,60 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <section className="px-8 py-16 ">
+        <div className="mx-auto max-w-screen-md">
+          <div className="rounded-xl border px-4 py-8">
+            <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-xl font-medium tracking-wide text-slate-800 md:mb-12 md:text-2xl">
+              <span>STU48 全国ツアー2023</span>
+            </h2>
+            <div className="flex flex-col items-center">
+              <div className="flex flex-col gap-y-8">
+                <div>
+                  🎤 7月29日（土）{" "}
+                  <span className="block md:inline">
+                    兵庫県・AiiA 2.5 Theater Kobe
+                  </span>
+                  <span className="mt-1 block pl-[1em]">
+                    <span className="pr-4">1部:13時/14時</span> 2部:17時/18時
+                  </span>
+                </div>
+                <div>
+                  🎤 7月30日（日）{" "}
+                  <span className="block md:inline">
+                    兵庫県・AiiA 2.5 Theater Kobe
+                  </span>
+                  <span className="mt-1 block pl-[1em]">
+                    <span className="pr-4">1部:13時/14時</span> 2部:17時/18時
+                  </span>
+                </div>
+                <div>
+                  🎤 8月31日（木）{" "}
+                  <span className="block md:inline">
+                    東京都・LINE CUBE SHIBUYA
+                  </span>
+                  <span className="mt-1 block pl-[1em]">18時/19時</span>
+                </div>
+                <div>
+                  🎤 9月30日（土）{" "}
+                  <span className="block md:inline">
+                    大阪府・メルパルクホール
+                  </span>
+                  <span className="mt-1 block pl-[1em]">
+                    <span className="pr-4">1部:13時/14時</span> 2部:17時/18時
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-1 flex flex-col items-end">
+            <div className="flex flex-col items-start">
+              <p className="block pt-1 text-xs">※開場/開演</p>
+              <p className="block pt-1 text-xs">※宙花さんの出演日のみ掲載</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="mt-8 bg-[#f8fcff] px-8 py-16">
         <h2 className="mb-8 flex flex-col items-center justify-center rounded-sm px-4 py-1 text-center text-2xl font-medium tracking-wide text-slate-800 md:mb-12">
@@ -175,7 +231,7 @@ export default function Home() {
               </h3>
               <p className="mb-4 flex-1 break-words leading-7 md:mb-0">
                 初センター曲！
-              </p>{" "}
+              </p>
               <div className="flex w-full justify-end">
                 <MusciShare
                   apple_share_url={`https://music.apple.com/jp/album/%E8%88%B9%E3%81%8B%E3%82%89%E9%99%8D%E3%82%8A%E3%81%9F%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AF/1616820916?i=1616820935`}
@@ -193,7 +249,7 @@ export default function Home() {
               </h3>
               <p className="mb-4 flex-1 break-words leading-7 md:mb-0">
                 そらはさんセンター！
-              </p>{" "}
+              </p>
               <div className="flex w-full justify-end">
                 <MusciShare
                   apple_share_url={`https://music.apple.com/jp/album/%E8%87%AA%E7%84%B6%E6%B7%98%E6%B1%B0%E4%B8%BB%E7%BE%A9/1675294316?i=1675294318`}

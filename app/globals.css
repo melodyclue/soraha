@@ -6,6 +6,11 @@ body {
   @apply text-slate-700;
 }
 
-* {
-  -webkit-tap-highlight-color: transparent;
+.next-tweet-theme {
+  --tweet-container-margin: 0;
+  --tweet-header-font-size: 1em;
+  --tweet-body-font-size: 1em;
+  --tweet-info-font-size: 1em;
+  --tweet-actions-font-size: 1em;
+  --tweet-replies-font-size: 1em;
 }
